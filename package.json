@@ -1,0 +1,31 @@
+{
+  "name": "eslint-plugin-storage",
+  "version": "1.0.0",
+  "description": "eslint plugin to disallow document.cookie and localStorage",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrjones2014/eslint-plugin-storage.git"
+  },
+  "keywords": [
+    "eslint",
+    "cookies",
+    "localStorage",
+    "eslint-plugin",
+    "eslint-plugin-storage"
+  ],
+  "author": "Mat Jones",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrjones2014/eslint-plugin-storage/issues"
+  },
+  "homepage": "https://github.com/mrjones2014/eslint-plugin-storage#readme",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "eslint": "^7.32.0",
+    "eslint-ava-rule-tester": "^4.0.0"
+  }
+}
